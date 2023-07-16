@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Оформление заказа</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230716134042">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="120" class="header">
+			<div class="header__container">
+				<a href="" class="header__logo _icon-logo logo">Womazing</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-menu-link="home" href="home.html" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a data-menu-link="shop" href="shop.html" class="menu__link">Магазин</a></li>
+							<li class="menu__item"><a data-menu-link="brand" href="brand.html" class="menu__link">О бренде</a></li>
+							<li class="menu__item"><a data-menu-link="contact" href="contact.html" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__action">
+					<div class="header__callback callback">
+						<button data-popup="#callback" class="callback__button _icon-telethone-header"></button>
+						<a href="tel:+74958235412" class="callback__thone">+7 (495) 823-54-12</a>
+					</div>
+					<a href="making.html" class="header__shopping _icon-shopping-header"><span></span></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="chapter">
+				<div class="chapter__container">
+					<h1 class="chapter__title">Оформление заказа</h1>
+					<ul class="chapter__way">
+						<li class="chapter__step"><a href="">Главная</a></li>
+						<li class="chapter__slash"></li>
+						<li class="chapter__step chapter__step_active"><a href="">Оформление заказа</a></li>
+					</ul>
+				</div>
+			</section>
+			<div class="making-an-order">
+				<form action="" class="making-an-order__container">
+					<div class="making-an-order__column making-form">
+						<div class="making-form__form">
+							<div class="making-form__item">
+								<lable class="making-form__lable">Данные покупателя</lable>
+								<input placeholder="Имя" type="text" class="making-form__input">
+								<input placeholder="E-mail" type="email" class="making-form__input">
+								<input placeholder="Телефон" type="tel" class="making-form__input">
+							</div>
+							<div class="making-form__item">
+								<lable class="making-form__lable">Адрес получателя</lable>
+								<input placeholder="Страна" type="text" class="making-form__input">
+								<input placeholder="Город" type="text" class="making-form__input">
+								<input placeholder="Улица" type="text" class="making-form__input">
+								<input placeholder="Дом" type="text" class="making-form__input">
+								<input placeholder="Квартира" type="text" class="making-form__input">
+							</div>
+							<div class="making-form__item">
+								<lable class="making-form__lable">Комментарии</lable>
+								<textarea placeholder="Страна" name="comment" class="making-form__input making-form__input_textarea"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="making-an-order__column making-order-inform">
+						<div class="making-order-inform__order order-making">
+							<h3 class="order-making__title">Ваш заказ</h3>
+							<div class="order-making__table table-order">
+								<div class="table-order__row table-order__row_title">
+									<p>Товар</p>
+									<p>Всего</p>
+								</div>
+								<div class="table-order__row">
+									<p>Футболка USA</p>
+									<p>$129</p>
+								</div>
+								<div class="table-order__row">
+									<p>Подытог</p>
+									<p class="table-order__subtotal">$129</p>
+								</div>
+								<div class="table-order__row table-order__row_total">
+									<p>Итого</p>
+									<p class="table-order__total">$129</p>
+								</div>
+							</div>
+						</div>
+						<div class="making-order-inform__payment payment-order">
+							<h3 class="payment-order__title">Способы оплаты</h3>
+							<div class="payment-order__variants">
+								<input checked id="nal" name="variant-payment" type="checkbox" class="payment-order__type">
+								<lable for="#nal" class="payment-order__lable">Оплата наличными</lable>
+							</div>
+						</div>
+						<input type="submit" value="Разместить заказ" class="making-order-inform__button button-color">
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__logo _icon-logo logo">Womazing</div>
+					<div class="top-footer__menu menu-footer-top">
+						<nav class="menu-footer-top__body">
+							<ul class="menu-footer-top__list">
+								<li class="menu-footer-top__item"><a data-menu-link="home" href="" class="menu__link">Главная</a></li>
+								<li class="menu-footer-top__item"><a data-menu-link="shop" href="" class="menu__link">Магазин</a></li>
+								<li class="menu-footer-top__item"><a data-menu-link="brand" href="" class="menu__link">О бренде</a>
+								</li>
+								<li class="menu-footer-top__item"><a data-menu-link="contact" href="" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="top-footer__kontakts">
+						<a href="tel:+74958235412" class="top-footer__tel">+7 (495) 823-54-12</a>
+						<a href="mailto:hello@womazing.com" class="top-footer__email">hello@womazing.com</a>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__offer">
+						<p>© Все права защищены</p>
+						<a href="">Политика конфиденциальности</a>
+						<a href="">Публичная оферта</a>
+					</div>
+					<div class="bottom-footer__menu menu-footer">
+						<nav class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Пальто </a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Свитшоты</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Кардиганы</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Толстовки</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="bottom-footer__action action-footer">
+						<div class="action-footer__soc">
+							<a href="" class="action-footer__link _icon-instagram"></a>
+							<a href="" class="action-footer__link _icon-facebook"></a>
+							<a href="" class="action-footer__link _icon-twitter"></a>
+						</div>
+						<div class="action-footer__many">
+							<picture><source srcset="img/footer/pay.webp" type="image/webp"><img src="img/footer/pay.png" alt="visa-mastercard"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span></span></button>
+				<div class="popup__body">
+					<div class="popup__title"></div>
+					<form action="" method="post" class="popup__form">
+						<input required type="text" class="popup__input" placeholder="Имя">
+						<input type="email" class="popup__input" placeholder="E-mail">
+						<input required type="tel" class="popup__input" placeholder="Телефон">
+						<button class="popup__button">Заказать звонок</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="good-callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body">
+					<p class="popup__text">Отлично! Мы скоро вам перезвоним.</p>
+					<button data-close type="button" class="popup__close-good button-border">Закрыть</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230716134042"></script>
+</body>
+
+</html>
